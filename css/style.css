@@ -1,7 +1,7 @@
 :root {
   --black-color: #292929;
-  --white-color: #FFFFFF;
-  --green-color: #01996D;
+  --white-color: #ffffff;
+  --green-color: #01996d;
 
   --accent-font: 'Noto Sans Georgian', sans-serif;
 }
@@ -15,7 +15,10 @@ body {
   line-height: 1.55;
 }
 
-h1, h2, h3, p {
+h1,
+h2,
+h3,
+p {
   margin-top: 0;
   margin-bottom: 0;
 }
@@ -27,7 +30,7 @@ ul {
 }
 
 img {
- display: block;
+  display: block;
 }
 
 .whole-nav {
@@ -80,14 +83,13 @@ img {
 
 .main-nav .link:hover,
 .main-nav .link:focus {
-  color: var(--green-color)
+  color: var(--green-color);
 }
 
 .start-btn .link {
   display: inline-block;
   text-decoration: none;
   color: var(--black-color);
-
 }
 
 .start-btn .link:hover,
@@ -103,7 +105,7 @@ img {
   line-height: 1.25;
 
   cursor: pointer;
-  border: 1px solid #01996D;
+  border: 1px solid #01996d;
   border-radius: 4px;
 
   padding: 13px 50px;
@@ -148,7 +150,7 @@ img {
   text-align: center;
   padding: 20px 50px;
 
-  border: 1px solid #01996D;
+  border: 1px solid #01996d;
   border-radius: 4px;
   margin-left: 275px;
   margin-bottom: 400px;
@@ -193,7 +195,7 @@ img {
   font-weight: 700;
   font-size: 50px;
   line-height: 1.57;
-  
+
   width: 584px;
   margin-left: 100px;
 }
@@ -300,7 +302,6 @@ img {
   font-weight: 700;
   font-size: 50px;
   line-height: 1.57;
-
 }
 
 .text-green {
@@ -310,7 +311,7 @@ img {
 }
 
 .button.green {
-  margin: 0 auto
+  margin: 0 auto;
 }
 
 /* footer */
