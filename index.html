@@ -17,87 +17,95 @@
 <body>
   <!-- navigation-->
   <header>
-      <nav>
-        <a href="#">
-          <img src="./images/Logo.jpg" alt="logo">
+    <div class="whole-nav">
+      <nav class="site-nav">
+        <a class="logo" href="index.html">
+          <img src="./images/Logo.jpg" alt="logo" width="80px">
         </a>
-        <ul>
-          <li>
-            <a href="index.htnl">Why Alivio</a>
+        <ul class="main-nav">
+          <li class="item">
+            <a href="index.htnl" class="link">Why Alivio</a>
           </li>
-          <li>
-            <a href="">Solutions</a>
+          <li class="item">
+            <a href="" class="link">Solutions</a>
           </li>
-          <li>
-            <a href="">Community</a>
+          <li class="item">
+            <a href="" class="link">Community</a>
           </li>
-          <li>
-            <a href="">Pricing</a>
+          <li class="item">
+            <a href="" class="link">Pricing</a>
           </li>
         </ul>
       </nav>
-
-      <ul>
+      
+      <ul class="start-btn">
         <li>
-          <button type="button">Sign in</button>
+          <a class="link" href="">Sing in</a>
         </li>
         <li>
-          <button type="button">Start Trial</button>
+          <button class="button" type="button">Start Trial</button>
         </li>
       </ul>
+    </div>
   </header>
   <main>
     <!-- hero -->
-    <section>
-      <h1>Be aware, Manage well.</h1>
-      <p>Everyone experiences stress in different ways. Let Alivio guide you, in a personalized journal experience, to overcome your stress.</p>
-      <button type="button">Find Your Way</button>
-    </section>
+      <div class="hero">
+          <h1 class="hero-title">Be aware,<br> Manage well.</h1>
+          <p class="hero-text">Everyone experiences stress in different <br> Let Alivio guide you, in a personalized journal <br> experience, to
+            overcome your stress.</p>
+          <button class="button" type="button">Find Your Way</button>
+      </div>
 
     <!-- about -->
-    <section>
-      <h2>How it works (hidden)</h2>
-      <h3>Understand & Release the stress in 3 steps</h2>
-      <p>How it works</p>
-      <p>Alivio offers as many journals it takes, tackling different areas such as anxiety, overwhelmedness, sadness, or anger,
-      and a variety of personal causes, to help you become aware of your emotions, and guide you in how to manage stress.</p>
-
-      <ul>
-        <li>
-          <h3>Personalize</h2>
-          <p>Answer a quick survey about how you express yourself, what causes you stress, and what area would you like to work on.
+    <section class="section">
+      <div class="work">
+        <h2 class="visually-hidden">How it works (hidden)</h2>
+        <h3 class="work-title">Understand & Release the stress in 3 steps</h2>
+        <p class="work-text">Alivio offers as many journals it takes, tackling different areas such as anxiety,
+          overwhelmedness, sadness, oranger, and a variety of personal causes, to help you become aware of your emotions, and
+          guide you in how to manage stress.
+        </p>
+      </div>
+      <ul class="work-list">
+        <li class="item">
+          <h3 class="title">Personalize</h2>
+          <p class="text">Answer a quick survey about how you express yourself, what causes you stress, and what area would you like to work on.
           This way, we can fully personalize your journal!</p>
           <img src="./images/first.jpg" alt="hidden leafe notebook">
         </li>
-        <li>
-          <h3>Write & Understand</h2>
-          <p>Write, draw, reflect, understand. Alivio will guide you through the prompts and will help you manage your stress!</p>
+        <li class="item">
+          <h3 class="title">Write & Understand</h2>
+          <p class="text">Write, draw, reflect, understand. Alivio will guide you through the prompts and will help you manage your stress!</p>
           <img src="./images/second.jpg" alt="books">
         </li>
-        <li>
-          <h3>Alivio!</h2>
-          <p>Now you are aware, and have a way to manage and overcome your own stress.
+        <li class="item">
+          <h3 class="title">Alivio!</h2>
+          <p class="text">Now you are aware, and have a way to manage and overcome your own stress.
           What are you waiting for? Alivio today!</p>
-          <img src="./images/third.jpg" alt="cute girl smiling">
+          <img class="border" src="./images/third.jpg" alt="cute girl smiling">
         </li>
       </ul>
     </section>
 
     <!-- examples -->
-    <section>
-      <h2>Work examples</h2>
+    <section class="card-list">
+      <h2 class="visually-hidden">Work examples</h2>
       <ul>
-        <li>
-          <p>Let&#8217;s get started</p>
-          <h3>Let&#8217;s hear about Kayla&#8217;s success story</h3>
-          <button type="button">Let`s get started</button>
-          <img src="./images/fifth.jpg" alt="smiling women with phone"></li>
-        <li>
-          <h3>You tell us your stress,
-          We make your diary</h3>
-          <p>Everyone experiences it, and in different ways.
-          Let Alivio guide you, in a personalized journal experience, to overcome your stress.</p>
-          <button type="button">Find Your Way</button>
+        <li  class="card">
+          <div class="card-description">
+            <h3 class="title">Let&#8217;s hear about <br> Kayla&#8217;s success story</h3>
+            <p class="text">See how well Alivio works in a real customer&#8217;s life.</p>
+            <button class="button green" type="button">Let&#8217;s get started</button>
+          </div>
+          <img class="border" src="./images/fifth.jpg" alt="smiling women with phone" width="895px"></li>
+        <li class="card">
+          <div class="card-description">
+            <h3 class="title-green">You tell us your stress, <br> We make your diary</h3>
+            <p class="text-green">Everyone experiences it, and in different ways. <br>
+              Let Alivio guide you, in a personalized journal experience, to <br> overcome your stress.</p>
+            <button class="button green" type="button">Find Your Way</button>
+          </div>
           <img src="./images/sixth.jpg" alt="girl smiling on the green background"></li>
       </ul>
     </section>
@@ -105,23 +113,25 @@
   </main>
 
   <footer>
-    <ul>
-      <li>
-        <a href="index.html">Alivio</a>
-      </li>
-      <li>
-        <a href="index.html">Why Alivio</a>
-      </li>
-      <li>
-        <a href="">Solutions</a>
-      </li>
-      <li>
-        <a href="">Community</a>
-      </li>
-      <li>
-        <a href="">Pricing</a>
-      </li>
-    </ul>
+    <div class="footer">
+      <ul class="address-list">
+        <li class="item">
+          <a class="link" href="index.html">Alivio</a>
+        </li>
+        <li class="item">
+          <a class="link" href="index.html">Why Alivio</a>
+        </li>
+        <li class="item">
+          <a class="link" href="">Solutions</a>
+        </li>
+        <li class="item">
+          <a class="link" href="">Community</a>
+        </li>
+        <li class="item">
+          <a class="link last" href="">Pricing</a>
+        </li>
+      </ul>
+    </div>
   </footer>
   
 </body>
